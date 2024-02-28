@@ -2,8 +2,7 @@ const express=require('express');
 const {graphqlHTTP}=require('express-graphql');
 const mongoose=require('mongoose');
 const schema=require('./schema/schema');
-const book=require('../server/models/book');
-const author=require('../server/models/author');
+
 
 const app=express();
 
